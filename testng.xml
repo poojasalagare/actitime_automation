@@ -1,0 +1,20 @@
+<Suite name="TestSuite" verbose="1">
+
+    <test name="regression">
+
+        <groups>
+            <run>
+            <include name="regression"></include>
+            <exclude name="sanity"></exclude>
+
+             </run>
+        </groups>
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.practice.findBrokenLinks"></class>
+            <class name="com.actitime.automation.practicalTest"/>
+
+        </classes>
+
+    </test>
+</Suite>
