@@ -11,4 +11,12 @@ public class newClass {
     {
         System.out.println("hello");
     }
+
+
+
+    @Test
+    public void m2()
+    {
+        System.out.println("method2");
+    }
 }
