@@ -11,8 +11,8 @@
         </groups>
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.practice.findBrokenLinks"></class>
-            <class name="com.actitime.automation.practicalTest"/>
+            <class name="com.practice.findBrokenLinksTest"></class>
+
 
         </classes>
 
